@@ -1,0 +1,84 @@
+
+
+{
+    "success": true,
+    "status": "OFFER_CREATED",
+    "event": "pre_offer_created",
+    "offers": {
+        "IL": {
+            "product": "IL",
+            "amount": "20000",
+            "amortizeLength": "36",
+            "interest": "1.1",
+            "monthlyFee": "1.1",
+            "setupFee": "0",
+            "repaymentType": "annuity",
+            "guarantors": "one_guarantor",
+            "adminFee": 0,
+            "monthlyCost": 775.56,
+            "totalCost": 27920.159999999996
+        }
+    },
+    "payload": {
+        "id": "22276",
+        "business_id": "5592692940",
+        "product": "IL",
+        "amount": "20000",
+        "amortizeLength": "36",
+        "interest": "1.1",
+        "monthlyFee": "1.1",
+        "setupFee": "0",
+        "repaymentType": "annuity",
+        "guarantors": "one_guarantor",
+        "adminFee": 0,
+        "monthlyCost": 775.56,
+        "totalCost": 27920.159999999996,
+        "interestRate": "1.1",
+        "status": "PENDING"
+    }
+}
+
+
+
+
+
+
+{
+    "success": true,
+    "status": "REJECTED",
+    "event": "pre_application_rejected",
+    "payload": {
+        "id": "22255"
+    }
+}
+
+
+
+
+// success mail start
+Hej,
+
+Tack för er låneansökan.
+Vi har äran att förmedla följande förhandsbesked för er låneansökan.
+
+[offer_start]
+
+Förhandsbeskedet avser företaget med organisationsnummer [business_id]
+Kreditbelopp: [amount] SEK
+Återbetalningsperiod: [amortizeLength] Månader
+Belopp att betala per månad: [monthlyCost] SEK
+
+[offer_end]
+
+<a style="background: green; color: #ffffff; display: inline-block; padding: 4px 8px; border-radius: 4px; text-decoration: none;" href="https://stage.capiq.se/">Continue with the proffer</a>
+
+<a style="background: red; color: #ffffff; display: inline-block; padding: 4px 8px; border-radius: 4px; text-decoration: none;" href="https://stage.capiq.se/">Reject the proffer</a>
+
+<a style="background: #89c53f; color: #ffffff; display: inline-block; padding: 4px 8px; border-radius: 4px; text-decoration: none;" href="https://stage.capiq.se/">Start sell your invoices instead</a>
+// success mail end
+
+
+// fail mail start
+Unfortunately we can’t offer you any loan for the moment.
+Do you want to check if we can help you to release funds with our Factoring Services.
+// fail mail end
