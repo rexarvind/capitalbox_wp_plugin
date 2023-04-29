@@ -10,7 +10,7 @@
             ],
             current_step: 1,
             amount_min: 20000,
-            amount_max: 3500000,
+            amount_max: 1000000,
             entityTypeArr: [
                 { label: 'Ensklid firma', value: 'Sole Proprietorship', },
                 { label: 'Aktiebolag', value: 'Limited Company', },
